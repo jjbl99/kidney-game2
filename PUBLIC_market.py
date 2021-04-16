@@ -181,7 +181,7 @@ class market():
         if NDD_list.shape[0]!=0:
             color_map[NDD_list] = 'red'
         color_map = color_map.tolist()
-        nx.draw_spring(gr, node_color=color_map, with_labels=True, node_size=500) # , labels=mylabels, with_labels=True)
+        nx.draw_random(gr, node_color=color_map, with_labels=True, node_size=500) # , labels=mylabels, with_labels=True)
         plt.show()
         
     def show_match(self,G_coord,match):
