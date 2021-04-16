@@ -1,1 +1,1 @@
-player played
+new-game
